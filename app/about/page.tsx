@@ -1,6 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
+import Image from "next/image";
 import Link from "next/link";
 import { Users, Target, Heart, Award, ArrowRight } from "lucide-react";
 
@@ -74,11 +75,12 @@ export default function About() {
                         <div className="lg:w-1/3 text-center relative">
                             <div className="relative inline-block">
                                 <div className="w-64 h-64 md:w-80 md:h-80 rounded-full border-4 border-white shadow-2xl overflow-hidden relative z-10 mx-auto bg-slate-200">
-                                    {/* Placeholder for MD Picture */}
-                                    <div className="w-full h-full flex items-center justify-center text-slate-400">
-                                        <Users size={64} opacity={0.5} />
-                                        <span className="absolute mt-16 text-xs uppercase tracking-widest">MD Lawrence</span>
-                                    </div>
+                                    <Image
+                                        src="/images/md-profile.jpeg"
+                                        alt="MD Lawrence"
+                                        fill
+                                        className="object-cover"
+                                    />
                                 </div>
                                 {/* Decorative Elements */}
                                 <div className="absolute top-0 right-0 w-24 h-24 bg-cyan-500 rounded-full blur-[40px] opacity-50 -z-0 translate-x-1/2 -translate-y-1/4"></div>
