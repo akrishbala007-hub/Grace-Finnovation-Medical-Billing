@@ -26,7 +26,7 @@ export default function Footer() {
                         </p>
                         <div className="flex gap-4">
                             {/* Only LinkedIn Profile */}
-                            <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="w-10 h-10 rounded-full bg-white/5 border border-white/10 flex items-center justify-center hover:bg-[#06b6d4] hover:border-[#06b6d4] transition-all duration-300 group">
+                            <a href="https://www.linkedin.com/company/grace-finnovation-medical-billing/" target="_blank" rel="noopener noreferrer" className="w-10 h-10 rounded-full bg-white/5 border border-white/10 flex items-center justify-center hover:bg-[#06b6d4] hover:border-[#06b6d4] transition-all duration-300 group">
                                 <Linkedin size={18} className="text-slate-400 group-hover:text-white transition-colors" />
                             </a>
                         </div>
