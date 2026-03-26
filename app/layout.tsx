@@ -10,11 +10,23 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Grace Finnovation Medical Billing | Offshore RCM Services",
-  description: "Trusted medical billing outsourcing for US healthcare providers. HIPAA compliant RCM solutions to boost revenue and reduce denials.",
+  title: "Medical Billing Services in USA | Grace Finnovation | Offshore RCM Experts",
+  description: "Top-rated medical billing services in USA. Outsource your Revenue Cycle Management (RCM) to Grace Finnovation for cost-effective, HIPAA-compliant offshore solutions. Maximize revenue and reduce denials.",
+  keywords: [
+    "Medical Billing Services in USA",
+    "Offshore RCM Experts",
+    "Revenue Cycle Management Outsourcing",
+    "Medical Coding Services",
+    "HIPAA Compliant Billing Solutions",
+    "Denial Management USA",
+    "AR Follow-up Services",
+    "Behavioral Health Billing",
+    "Grace Finnovation",
+    "Healthcare Outsourcing"
+  ],
   openGraph: {
-    title: "Grace Finnovation Medical Billing | Offshore RCM Services",
-    description: "Trusted medical billing outsourcing for US healthcare providers. HIPAA compliant RCM solutions to boost revenue and reduce denials.",
+    title: "Medical Billing Services in USA | Grace Finnovation | Offshore RCM Experts",
+    description: "Expert offshore RCM solutions for US healthcare providers. Reduce costs and optimize your revenue cycle with Grace Finnovation.",
     url: "https://gracefinnovation.com",
     siteName: "Grace Finnovation",
     images: [
@@ -22,7 +34,7 @@ export const metadata: Metadata = {
         url: "/opengraph-image.png",
         width: 1200,
         height: 630,
-        alt: "Grace Finnovation Medical Billing",
+        alt: "Grace Finnovation Medical Billing Services",
       },
     ],
     locale: "en_US",

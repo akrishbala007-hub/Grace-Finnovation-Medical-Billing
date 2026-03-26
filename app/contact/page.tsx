@@ -37,10 +37,10 @@ export default function Contact() {
                         animate={{ opacity: 1, y: 0 }}
                         className="text-4xl md:text-6xl font-bold text-white mb-6"
                     >
-                        Contact <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-blue-400">Us</span>
+                        Medical Billing <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-blue-400">Services in USA</span>
                     </motion.h1>
                     <p className="text-xl text-slate-300 max-w-xl mx-auto">
-                        Ready to optimize your revenue? We're here to help.
+                        Get a free quote for your Revenue Cycle Management (RCM) needs. We're here to optimize your practice's income.
                     </p>
                 </div>
             </section>

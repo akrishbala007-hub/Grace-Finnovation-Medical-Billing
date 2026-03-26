@@ -85,7 +85,7 @@ export default function Services() {
                         animate={{ opacity: 1, y: 0 }}
                         className="text-4xl md:text-6xl font-bold mb-6"
                     >
-                        Our Solutions
+                        RCM & Medical Billing Solutions
                     </motion.h1>
                     <p className="text-xl text-slate-300 max-w-2xl mx-auto leading-relaxed">
                         Precision-driven revenue cycle management tailored to your needs.

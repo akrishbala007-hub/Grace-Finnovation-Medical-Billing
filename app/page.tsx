@@ -60,16 +60,16 @@ export default function Home() {
           >
             <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-cyan-500/10 border border-cyan-500/20 text-cyan-400 text-sm font-medium mb-6 backdrop-blur-md">
               <span className="w-2 h-2 rounded-full bg-cyan-400 animate-pulse"></span>
-              The Future of Medical Billing
+              Offshore RCM Experts
             </div>
 
             <h1 className="text-5xl lg:text-7xl font-bold text-white leading-[1.1] mb-6 tracking-tight">
-              Revenue Cycle <br />
-              <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 via-blue-400 to-violet-400">Excellence</span>
+              Medical Billing <br />
+              <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 via-blue-400 to-violet-400">Services in USA</span>
             </h1>
 
             <p className="text-lg text-slate-300 mb-8 max-w-xl leading-relaxed">
-              Grace Finnovation transforms healthcare finances with AI-driven RCM solutions. We reduce denials, accelerate cash flow, and let providers focus on what matters—patient care.
+              Grace Finnovation is a leading offshore medical billing company providing expert Revenue Cycle Management (RCM) solutions for US healthcare providers. We reduce denials, accelerate cash flow, and ensure HIPAA compliance.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4">
@@ -175,8 +175,8 @@ export default function Home() {
         <div className="container mx-auto px-4">
           <div className="text-center mb-16">
             <span className="text-cyan-600 font-bold uppercase tracking-wider text-sm mb-2 block">Our Solutions</span>
-            <h2 className="text-4xl lg:text-5xl font-bold text-slate-800 mb-6">Comprehensive RCM Suite</h2>
-            <p className="max-w-2xl mx-auto text-slate-600">End-to-end billing solutions designed to optimize every touchpoint of your financial cycle.</p>
+            <h2 className="text-4xl lg:text-5xl font-bold text-slate-800 mb-6">Offshore Medical Billing & RCM Services</h2>
+            <p className="max-w-2xl mx-auto text-slate-600">Complete revenue cycle management solutions designed to optimize your practice’s financial efficiency with offshore cost benefits.</p>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
