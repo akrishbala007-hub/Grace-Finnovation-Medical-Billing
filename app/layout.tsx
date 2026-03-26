@@ -12,6 +12,9 @@ const inter = Inter({
 export const metadata: Metadata = {
   title: "Medical Billing Services in USA | Grace Finnovation | Offshore RCM Experts",
   description: "Top-rated medical billing services in USA. Outsource your Revenue Cycle Management (RCM) to Grace Finnovation for cost-effective, HIPAA-compliant offshore solutions. Maximize revenue and reduce denials.",
+  verification: {
+    google: "google4822edbc6a9dd3a1",
+  },
   keywords: [
     "Medical Billing Services in USA",
     "Offshore RCM Experts",
