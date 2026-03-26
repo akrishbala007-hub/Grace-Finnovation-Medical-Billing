@@ -21,7 +21,7 @@ export default function Home() {
     if (!email) return;
     const subject = `Checklist Request from ${email}`;
     const body = `Please send the Credentialing Checklist for 2026 to: ${email}`;
-    window.location.href = `mailto:sales@gracefinnovationmedicalbilling.com?subject=${subject}&body=${body}`;
+    window.location.href = `mailto:williamjohnson@gracefinnovation.com?subject=${subject}&body=${body}`;
   };
 
   const services = [

@@ -17,7 +17,7 @@ export default function Contact() {
         e.preventDefault();
         const subject = `New Inquiry from ${formData.name} - ${formData.specialty}`;
         const body = `Name: ${formData.name}%0D%0APhone: ${formData.phone}%0D%0AEmail: ${formData.email}%0D%0ASpecialty: ${formData.specialty}%0D%0A%0D%0AMessage:%0D%0A${formData.message}`;
-        window.location.href = `mailto:sales@gracefinnovationmedicalbilling.com?subject=${subject}&body=${body}`;
+        window.location.href = `mailto:williamjohnson@gracefinnovation.com?subject=${subject}&body=${body}`;
     };
 
     const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement | HTMLSelectElement>) => {
@@ -73,7 +73,7 @@ export default function Contact() {
                                     </div>
                                     <div>
                                         <h4 className="font-bold text-slate-800">Phone</h4>
-                                        <a href="tel:+919629991085" className="text-slate-600 hover:text-cyan-600 block transition">+91 9629991085</a>
+                                        <a href="tel:+15822648655" className="text-slate-600 hover:text-cyan-600 block transition">+15822648655</a>
                                     </div>
                                 </div>
 
@@ -83,7 +83,7 @@ export default function Contact() {
                                     </div>
                                     <div>
                                         <h4 className="font-bold text-slate-800">Email</h4>
-                                        <a href="mailto:sales@gracefinnovationmedicalbilling.com" className="text-slate-600 hover:text-cyan-600 break-all transition">sales@gracefinnovationmedicalbilling.com</a>
+                                        <a href="mailto:williamjohnson@gracefinnovation.com" className="text-slate-600 hover:text-cyan-600 break-all transition">williamjohnson@gracefinnovation.com</a>
                                     </div>
                                 </div>
                             </div>

@@ -93,7 +93,7 @@ export default function Footer() {
                                 </div>
                                 <div>
                                     <h4 className="text-white text-sm font-semibold mb-1">Phone</h4>
-                                    <p className="text-slate-400 text-sm">+91 9629991085</p>
+                                    <p className="text-slate-400 text-sm">+15822648655</p>
                                 </div>
                             </li>
                             <li className="flex items-start gap-4 group">
@@ -102,7 +102,7 @@ export default function Footer() {
                                 </div>
                                 <div>
                                     <h4 className="text-white text-sm font-semibold mb-1">Email</h4>
-                                    <p className="text-slate-400 text-sm break-all">sales@gracefinnovationmedicalbilling.com</p>
+                                    <p className="text-slate-400 text-sm break-all">williamjohnson@gracefinnovation.com</p>
                                 </div>
                             </li>
                         </ul>

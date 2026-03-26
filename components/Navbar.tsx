@@ -34,11 +34,11 @@ export default function Navbar() {
             {/* Top Bar (Hidden on scroll for cleaner look, or kept small) */}
             <div className={`container mx-auto px-4 transition-all duration-300 ${scrolled ? "h-0 opacity-0 overflow-hidden" : "h-auto opacity-100 mb-2"}`}>
                 <div className="flex justify-end items-center gap-6 text-xs sm:text-sm font-medium text-slate-300">
-                    <a href="tel:+919629991085" className="flex items-center gap-1 hover:text-cyan-400 transition">
-                        <Phone size={14} /> <span>+91 9629991085</span>
+                    <a href="tel:+15822648655" className="flex items-center gap-1 hover:text-cyan-400 transition">
+                        <Phone size={14} /> <span>+15822648655</span>
                     </a>
-                    <a href="mailto:sales@gracefinnovationmedicalbilling.com" className="hidden sm:flex items-center gap-1 hover:text-cyan-400 transition">
-                        <Mail size={14} /> <span>sales@gracefinnovationmedicalbilling.com</span>
+                    <a href="mailto:williamjohnson@gracefinnovation.com" className="hidden sm:flex items-center gap-1 hover:text-cyan-400 transition">
+                        <Mail size={14} /> <span>williamjohnson@gracefinnovation.com</span>
                     </a>
                 </div>
             </div>
