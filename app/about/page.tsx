@@ -76,8 +76,8 @@ export default function About() {
                             <div className="relative inline-block">
                                 <div className="w-64 h-64 md:w-80 md:h-80 rounded-full border-4 border-white shadow-2xl overflow-hidden relative z-10 mx-auto bg-slate-200">
                                     <Image
-                                        src="/images/balakrishnan.png"
-                                        alt="Balakrishnan Gunasekaran"
+                                        src="/images/md-profile.jpeg"
+                                        alt="MD Lawrence"
                                         fill
                                         className="object-cover"
                                     />
@@ -88,7 +88,7 @@ export default function About() {
 
                                 <div className="bg-white absolute -bottom-6 left-1/2 -translate-x-1/2 z-20 px-6 py-2 rounded-full shadow-xl border border-slate-100 flex items-center gap-2 whitespace-nowrap">
                                     <span className="w-2 h-2 rounded-full bg-green-500 animate-pulse"></span>
-                                    <span className="text-sm font-bold text-slate-700">10+ Years Experience</span>
+                                    <span className="text-sm font-bold text-slate-700">15+ Years Experience</span>
                                 </div>
                             </div>
                         </div>
@@ -96,15 +96,18 @@ export default function About() {
                         {/* Content Column */}
                         <div className="lg:w-2/3">
                             <span className="text-cyan-600 font-bold uppercase tracking-wider text-sm mb-2 block">Leadership</span>
-                            <h2 className="text-4xl font-bold text-slate-900 mb-2">Meet Our Founder</h2>
-                            <h3 className="text-xl text-slate-500 font-medium mb-6">Balakrishnan Gunasekaran <span className="text-slate-300">|</span> Co-Founder & Behavioral Health Billing Specialist</h3>
+                            <h2 className="text-4xl font-bold text-slate-900 mb-2">Meet Our Managing Director</h2>
+                            <h3 className="text-xl text-slate-500 font-medium mb-6">MD Lawrence <span className="text-slate-300">|</span> Founder & Managing Director</h3>
 
                             <div className="prose prose-lg text-slate-600 mb-8 leading-relaxed">
                                 <p>
-                                    With over 10 years of experience in medical billing and revenue cycle management, Balakrishnan Gunasekaran is committed to helping healthcare organizations optimize their financial health. He specializes in <strong>Behavioral Health RCM</strong>, ensuring accuracy, compliance, and improved predictability for behavioral health providers.
+                                    With over a decade and a half of dedicated experience in the Medical Billing and Revenue Cycle Management (RCM) industry, MD Lawrence has established a reputation for driving financial excellence for healthcare providers across the United States. His career is built on a simple yet powerful philosophy: <span className="italic font-medium text-slate-800">"Clinicians should focus on healing, while we focus on the health of their practice."</span>
                                 </p>
                                 <p>
-                                    At Grace Finnovation Medical Billing, Lawrence focuses on addressing key challenges like improper credentialing and incomplete billing setups, which are often the primary causes of revenue delays. His goal is to create a fully aligned revenue framework—covering eligibility, documentation, coding accuracy, and claims governance—to ensure sustainable growth for healthcare providers.
+                                    Lawrence’s journey in medical billing began 15 years ago, navigating the transition from paper-based systems to the highly complex, digital-first landscape of today. Throughout his tenure, he has overseen the successful management of multi-specialty portfolios, consistently delivering a <strong className="text-cyan-700">98% clean claim rate</strong> and significantly reducing aged accounts receivable for his clients.
+                                </p>
+                                <p>
+                                    While his experience spans all major medical specialties, Lawrence has become a recognized authority in the nuances of <strong>Behavioral Health and Mental Health billing</strong>. He recognized early on that the unique unit-based billing and authorization challenges of this field required a "specialist’s touch."
                                 </p>
                             </div>
 
@@ -118,14 +121,14 @@ export default function About() {
                                 <div className="flex justify-end mt-4">
                                     {/* Signature Graphic Placeholder */}
                                     <div className="text-2xl text-slate-500 font-serif italic pr-4 rotate-[-2deg]">
-                                        Balakrishnan Gunasekaran
+                                        MD Lawrence
                                     </div>
                                 </div>
                             </div>
 
                             {/* CTA Button */}
                             <Link href="/contact" className="inline-flex items-center gap-3 px-8 py-4 bg-gradient-to-r from-cyan-600 to-blue-700 text-white rounded-full font-bold shadow-lg shadow-cyan-500/30 hover:shadow-cyan-500/50 hover:-translate-y-1 transition-all transform">
-                                Schedule a Strategy Call with Balakrishnan <ArrowRight size={20} />
+                                Schedule a Strategy Call with MD Lawrence <ArrowRight size={20} />
                             </Link>
 
                         </div>
