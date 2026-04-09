@@ -76,7 +76,7 @@ export default function About() {
                             <div className="relative inline-block">
                                 <div className="w-64 h-64 md:w-80 md:h-80 rounded-full border-4 border-white shadow-2xl overflow-hidden relative z-10 mx-auto bg-slate-200">
                                     <Image
-                                        src="/images/md-profile.jpeg"
+                                        src="/images/balakrishnan.png"
                                         alt="Balakrishnan Gunasekaran"
                                         fill
                                         className="object-cover"
@@ -97,7 +97,7 @@ export default function About() {
                         <div className="lg:w-2/3">
                             <span className="text-cyan-600 font-bold uppercase tracking-wider text-sm mb-2 block">Leadership</span>
                             <h2 className="text-4xl font-bold text-slate-900 mb-2">Meet Our Founder</h2>
-                            <h3 className="text-xl text-slate-500 font-medium mb-6">Balakrishnan Gunasekaran <span className="text-slate-300">|</span> Behavioral Health RCM Expert</h3>
+                            <h3 className="text-xl text-slate-500 font-medium mb-6">Balakrishnan Gunasekaran <span className="text-slate-300">|</span> Co-Founder & Behavioral Health Billing Specialist</h3>
 
                             <div className="prose prose-lg text-slate-600 mb-8 leading-relaxed">
                                 <p>

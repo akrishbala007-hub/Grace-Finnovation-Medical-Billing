@@ -53,17 +53,23 @@ export default function LinkedInFeed() {
                             <div className="absolute top-0 right-0 w-32 h-32 bg-blue-500/5 rounded-full blur-3xl"></div>
                             
                             <div className="text-center mb-8 relative z-10">
-                                <div className="w-24 h-24 rounded-full overflow-hidden border-4 border-slate-50 bg-slate-100 relative mx-auto mb-4 shadow-md">
+                                <div className="w-20 h-20 rounded-2xl overflow-hidden border-2 border-cyan-500/30 bg-slate-800 relative mx-auto mb-4">
                                     <Image 
-                                        src="/images/md-profile.jpeg" 
+                                        src="/images/balakrishnan.png" 
                                         alt="Balakrishnan Gunasekaran"
                                         fill
                                         className="object-cover"
                                     />
                                 </div>
-                                <h3 className="text-xl font-bold text-slate-900">Balakrishnan Gunasekaran</h3>
-                                <p className="text-slate-500 text-sm">Behavioral Health RCM Expert</p>
+                                <div>
+                                    <h3 className="text-xl font-bold text-slate-900">Balakrishnan Gunasekaran</h3>
+                                    <p className="text-cyan-600 text-[10px] font-medium uppercase tracking-wider leading-tight">Co-Founder & Behavioral Health Billing Specialist</p>
+                                </div>
                             </div>
+
+                            <p className="text-slate-500 text-xs leading-relaxed mb-6 relative z-10 text-center">
+                                Grace Finnovation Medical Billing | Your Behavioral Health Claims Are Being Denied. I Fix That. | AR Recovery | Denial Management | Telehealth Billing
+                            </p>
 
                             <div className="space-y-4 mb-8 pt-6 border-t border-slate-50 relative z-10">
                                 <div className="flex items-center gap-3 text-sm text-slate-600">
