@@ -4,7 +4,6 @@ import Link from "next/link";
 import { motion, useScroll, useTransform } from "framer-motion";
 import { ArrowRight, CheckCircle2, TrendingUp, Users, Clock, ShieldCheck, Activity, FileText, DollarSign, Calendar, Play, Brain, HeartHandshake, FileSearch, UserCog, Send, Handshake, RefreshCw } from "lucide-react";
 import { useRef, useState, FormEvent } from "react";
-import LinkedInFeed from "../components/LinkedInFeed";
 
 export default function Home() {
   const containerRef = useRef(null);
@@ -395,9 +394,6 @@ export default function Home() {
           </div>
         </div>
       </section>
-
-      {/* LinkedIn Feed Section */}
-      <LinkedInFeed />
 
       {/* Stats/Proof Section */}
       <section className="py-20 relative bg-[#0f172a] overflow-hidden">
